@@ -2,6 +2,8 @@
 Ghost Blog installer automation for Debian systems
 
 #!/bin/bash
+# author Bosz Mand
+# facebook : https://www.facebook.com/yalim.kankaya
 
 sudo apt update && sudo apt upgrade
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
